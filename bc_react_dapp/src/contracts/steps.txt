@@ -1,0 +1,21 @@
+1. Create a id.sol
+    https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js
+    Ignore warning for high gas because the contract is getting and setting string and it could be of infinite length.
+
+2. Go to Run tab in Remix > change the environment to "Web3 Provider"
+
+3. Change the local env to http://localhost:8646 (the testnet running in your local using ./testnet.sh)
+
+4. Click Create > Check geth console to verify
+    You should see something like this
+    I0308 18:25:41.176481 internal/ethapi/api.go:1141] Tx(0xcaddea3f53146e8d964a25f2cfce168217db81cded715832de387709998d5a77) created: 0x1647b1461251a0c6d3e14a227de0f16e36ba80b1
+    I0308 18:25:41.404044 miner/unconfirmed.go:105] 🔗  mined block #338 [37dc1ea0…] reached canon
+
+5. then access the functions from Remix getId, setID:
+    "Piyush", 32
+
+---
+We can create and deploy the contract using code or command line as well.
+---
+
+
