@@ -19,3 +19,7 @@ We can create and deploy the contract using code or command line as well.
 ---
 
 
+App Side:
+1. Add css and change app.js to create HTML
+
+2.
