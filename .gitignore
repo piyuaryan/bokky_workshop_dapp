@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+testchain/geth/chaindata/
+testchain/geth/nodes/000083.log
+testchain/geth/nodes/000085.ldb
+testchain/geth/nodes/MANIFEST-000084
